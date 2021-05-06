@@ -33,17 +33,17 @@ a.btn.btn-black-hover:hover {
   color: #000;
 }
 
-section.container {
-  margin-top: 35px;
-  margin-bottom: 35px;
+section.content {
+  padding: 35px 0;
+  width: 100%;
 }
 
-section.container header {
+section.content header {
   width: 100%;
   margin-bottom: 35px;
 }
 
-section.container header .subtitle {
+section.content header .subtitle {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 18px;
@@ -52,7 +52,11 @@ section.container header .subtitle {
   text-align: center;
 }
 
-section.container header .subtitle::after {
+section.content header.bg-black .subtitle {
+  color: #ffc640;
+}
+
+section.content header .subtitle::after {
   content: "";
   width: 60px;
   height: 3px;
@@ -61,13 +65,21 @@ section.container header .subtitle::after {
   margin: 5px auto 0 auto;
 }
 
-section.container .call-to-action {
+section.content header.bg-black .subtitle::after {
+  background-color: #ffc640;
+}
+
+section.content .call-to-action {
   clear: both;
-  padding: 35px 0;
+  padding-top: 35px;
   text-align: center;
 }
 
-section.container .call-to-action p {
+section.content .call-to-action.bg-black {
+  color: #fff;
+}
+
+section.content .call-to-action p {
   margin-bottom: 15px;
 }
 
@@ -187,4 +199,14 @@ section.container .call-to-action p {
 
 .products-list li p {
   padding: 5px 20px 20px 20px;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background-color: #000;
+}
+
+.portfolio-list li:last-child {
+  margin-top: 15px;
 }
