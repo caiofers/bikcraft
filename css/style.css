@@ -33,13 +33,13 @@ a.btn.btn-black-hover:hover {
   color: #000;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
 section.content {
   padding: 35px 0;
   width: 100%;
-}
-
-section.content.bg-black {
-  background-color: #000;
 }
 
 section.content header {
@@ -51,7 +51,7 @@ section.content header .subtitle {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
   color: #000;
   text-align: center;
   font-weight: bold;
@@ -252,4 +252,64 @@ section.content .call-to-action p {
 .before-footer .extern-quote {
   padding-top: 25px;
   max-width: 400px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  color: #fff;
+}
+
+.footer-data {
+  padding: 35px 0;
+}
+
+.footer h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #ffc640;
+}
+
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ffc640;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  padding: 5px 35px 10px 0;
+}
+
+.footer ul.text li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer ul.img li {
+  float: left;
+  border: 3px solid #ffc640;
+  border-radius: 5px;
+  padding: 9px;
+  margin-right: 10px;
+}
+
+.footer ul.img li img {
+  display: block;
+}
+
+.footer-copy {
+  height: 45px;
+  background-color: #ffc640;
+  color: #000;
+  font-size: 14px;
+  padding: 15px 0;
 }
