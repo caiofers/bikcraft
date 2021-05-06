@@ -38,6 +38,10 @@ section.content {
   width: 100%;
 }
 
+section.content.bg-black {
+  background-color: #000;
+}
+
 section.content header {
   width: 100%;
   margin-bottom: 35px;
@@ -50,6 +54,7 @@ section.content header .subtitle {
   line-height: 30px;
   color: #000;
   text-align: center;
+  font-weight: bold;
 }
 
 section.content header.bg-black .subtitle {
@@ -67,6 +72,25 @@ section.content header .subtitle::after {
 
 section.content header.bg-black .subtitle::after {
   background-color: #ffc640;
+}
+
+section.content ul li h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin: 10px 0 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.content ul li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px auto 0 auto;
 }
 
 section.content .call-to-action {
@@ -180,33 +204,38 @@ section.content .call-to-action p {
   padding: 20px 0;
 }
 
-.products-list li h3 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.1em;
-  margin: 10px 0 5px 0;
-}
-
-.products-list li h3::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background-color: #000;
-  margin: 5px auto 0 auto;
-}
-
 .products-list li p {
   padding: 5px 20px 20px 20px;
 }
 
 /* Portfolio */
-
-.portfolio {
-  background-color: #000;
-}
-
 .portfolio-list li:last-child {
   margin-top: 15px;
+}
+
+/* Quality */
+
+.quality {
+  text-align: center;
+}
+
+.quality div.container::after {
+  content: "";
+  width: 623px;
+  height: 81px;
+  display: block;
+  background-image: url(../img/quality-tree.svg);
+  position: absolute;
+  top: 170px;
+  left: 169px;
+  z-index: -1;
+}
+
+.quality img {
+  margin-bottom: 60px;
+}
+
+.qualities-list li p {
+  padding: 5px 30px;
+  text-align: center;
 }
