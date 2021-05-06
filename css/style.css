@@ -166,6 +166,7 @@ section.content .call-to-action p {
   margin: 0 auto;
   color: #fff;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .extern-quote p {
@@ -238,4 +239,17 @@ section.content .call-to-action p {
 .qualities-list li p {
   padding: 5px 30px;
   text-align: center;
+}
+
+/* Before Footer */
+
+.before-footer {
+  background: url(/img/photos/bg-footer.jpg) no-repeat center;
+  background-size: cover;
+  height: 230px;
+}
+
+.before-footer .extern-quote {
+  padding-top: 25px;
+  max-width: 400px;
 }
