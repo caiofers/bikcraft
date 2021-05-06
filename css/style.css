@@ -125,7 +125,7 @@ section.content .call-to-action p {
 .header-menu ul li {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .header-menu ul li a {
@@ -307,9 +307,8 @@ section.content .call-to-action p {
 }
 
 .footer-copy {
-  height: 45px;
   background-color: #ffc640;
   color: #000;
   font-size: 14px;
-  padding: 15px 0;
+  padding: 10px 0;
 }
