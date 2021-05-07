@@ -1,0 +1,92 @@
+.secondary-header-products {
+  background: url(../img/photos/bg-products.jpg) no-repeat center;
+  background-size: cover;
+}
+
+section.product-presentation {
+  margin: 50px 0;
+  padding: 0;
+}
+
+.product-presentation .first-line-presentation,
+.product-presentation .second-line-presentation {
+  height: 280px;
+}
+
+.product-presentation .first-line-presentation div,
+.product-presentation .second-line-presentation div {
+  height: 100%;
+}
+
+.product-presentation .first-line-presentation {
+  margin-bottom: 20px;
+}
+
+.product-presentation .first-line-presentation .product-primary-img {
+  padding: 95px 0;
+}
+
+.product-presentation .first-line-presentation .product-primary-img h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.product-presentation .product-primary-img h2::before,
+.product-presentation .product-primary-img h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 10px auto;
+}
+
+.product-presentation .product-primary-img img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.product-presentation .product-type {
+  text-align: center;
+  background-color: #000;
+  padding: 70px 0;
+}
+
+.product-presentation .product-details {
+  text-align: center;
+  background-color: #000;
+}
+
+.product-presentation .product-details p {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.product-presentation .product-details ul li {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ffc640;
+  float: left;
+  width: 230px;
+  height: 48px;
+  padding: 15px 0;
+}
+
+.product-presentation .product-details ul li:nth-child(1),
+.product-presentation .product-details ul li:nth-child(2) {
+  border-bottom: 2px solid #000;
+}
+
+.product-presentation .product-details ul li:nth-child(even) {
+  border-left: 2px solid #000;
+}
