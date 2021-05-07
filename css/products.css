@@ -90,3 +90,71 @@ section.product-presentation {
 .product-presentation .product-details ul li:nth-child(even) {
   border-left: 2px solid #000;
 }
+
+.budget form {
+  color: #fff;
+}
+
+.budget form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.budget form input,
+.budget form textarea {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.budget .info {
+  color: #fff;
+}
+
+.budget .info div {
+  margin-bottom: 50px;
+}
+
+.budget .info h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #ffc640;
+}
+
+.budget .info h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ffc640;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.budget .info h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px 0;
+}
+
+.budget .info .specification ul {
+  list-style: square inside;
+}
+
+.budget .info .specification ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 5px;
+}
+
+.budget .info .specification ul li:nth-child(odd) {
+  background-color: #484b4d;
+}
