@@ -9,7 +9,7 @@ p {
   font-size: 14px;
 }
 
-a.btn {
+.btn {
   display: inline-block;
   width: 148px;
   height: 48px;
@@ -21,14 +21,15 @@ a.btn {
   text-align: center;
   padding: 10px 0;
   letter-spacing: 0.1em;
+  background: none;
 }
 
-a.btn:hover {
+.btn:hover {
   border-color: #fff;
   color: #fff;
 }
 
-a.btn.btn-black-hover:hover {
+.btn.btn-black-hover:hover {
   border-color: #000;
   color: #000;
 }

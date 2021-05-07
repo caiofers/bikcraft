@@ -107,6 +107,19 @@ section.product-presentation {
   width: 90%;
   margin-top: 5px;
   margin-bottom: 15px;
+  border: 4px solid #ffc640;
+  background: none;
+  color: #fff;
+  outline: none;
+  padding: 5px 5px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+}
+
+.budget form input:focus,
+.budget form textarea:focus {
+  border: 4px solid #fff;
 }
 
 .budget .info {
@@ -146,6 +159,7 @@ section.product-presentation {
 
 .budget .info .specification ul {
   list-style: square inside;
+  padding-right: 150px;
 }
 
 .budget .info .specification ul li {
@@ -156,5 +170,5 @@ section.product-presentation {
 }
 
 .budget .info .specification ul li:nth-child(odd) {
-  background-color: #484b4d;
+  background-color: #1d1d1d;
 }
