@@ -1,0 +1,137 @@
+/* Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Quality */
+  .quality div.container::after {
+    content: "";
+    background: none;
+  }
+
+  /* Footer */
+  .social-media ul.img li img {
+    width: 20px;
+  }
+
+  .footer .footer-copy p.grid-16 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Phone */
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    position: relative;
+    padding: 15px 0 10px 0;
+  }
+  .header img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header-menu.grid-12 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .header-menu ul {
+    margin: 10px 0 0 0;
+  }
+  .header-menu ul li {
+    margin: 5px;
+  }
+
+  .header-menu ul li a {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 130px;
+    border: 3px solid #000;
+  }
+
+  /* Secondary Header */
+  .secondary-header {
+    margin-top: 0;
+  }
+
+  .secondary-header h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+
+  .secondary-header h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 15px auto;
+  }
+
+  .secondary-header p {
+    color: #fff;
+    line-height: 20px;
+  }
+
+  /* Intro */
+  .intro {
+    height: 300px;
+    margin-top: 0;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+
+  .extern-quote {
+    margin-bottom: 15px;
+  }
+
+  /* Quality */
+  .quality div.container::after {
+    content: "";
+    background: none;
+  }
+
+  /* Budget */
+
+  .budget form input,
+  .budget form textarea {
+    width: 100%;
+  }
+
+  .budget form .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .budget .info {
+    color: #fff;
+    text-align: center;
+  }
+
+  .budget .info h3::after {
+    content: "";
+    margin: 5px auto 10px auto;
+  }
+
+  .budget .info .specification ul {
+    padding-right: 0;
+    list-style: none;
+  }
+
+  .budget .info .social-media ul a {
+    display: inline-block;
+  }
+
+  /* Footer */
+  .footer .footer-copy p.grid-16 {
+    padding: 0;
+    margin: 0;
+  }
+}
