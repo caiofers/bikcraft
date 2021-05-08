@@ -233,6 +233,27 @@ section.content .call-to-action p {
   letter-spacing: 0.1em;
 }
 
+.quote {
+  max-width: 450px;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  padding: 30px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quote p {
+  font-style: italic;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.quote cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /* Products */
 
 .products {
