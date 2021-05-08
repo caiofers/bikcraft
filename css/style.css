@@ -363,7 +363,7 @@ section.content .call-to-action p {
   line-height: 20px;
 }
 
-.footer ul.img li {
+.social-media ul.img li {
   float: left;
   border: 3px solid #ffc640;
   border-radius: 5px;
@@ -371,7 +371,15 @@ section.content .call-to-action p {
   margin-right: 10px;
 }
 
-.footer ul.img li img {
+.social-media ul.img li:hover {
+  border-color: #fff;
+}
+
+.social-media ul.img.black-hover li:hover {
+  border-color: #000;
+}
+
+.social-media ul.img li img {
   display: block;
 }
 
@@ -380,4 +388,92 @@ section.content .call-to-action p {
   color: #000;
   font-size: 14px;
   padding: 10px 0;
+}
+
+/* Budget */
+
+.budget form {
+  color: #fff;
+}
+
+.budget form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.budget form input,
+.budget form textarea {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 4px solid #ffc640;
+  background: none;
+  color: #fff;
+  outline: none;
+  padding: 5px 5px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
+}
+
+.budget form input:focus,
+.budget form textarea:focus {
+  border: 4px solid #fff;
+}
+
+.budget .info {
+  color: #fff;
+}
+
+.budget .info div {
+  margin-bottom: 50px;
+}
+
+.budget .info h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #ffc640;
+}
+
+.budget .info h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ffc640;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.budget .info h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px 0;
+}
+
+.budget .info .adress {
+  margin-top: 20px;
+}
+
+.budget .info .specification ul {
+  list-style: square inside;
+  padding-right: 150px;
+}
+
+.budget .info .specification ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 5px;
+}
+
+.budget .info .specification ul li:nth-child(odd) {
+  background-color: #1d1d1d;
 }

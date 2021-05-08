@@ -1,0 +1,16 @@
+.secondary-header-contacts {
+  background: url(../img/photos/bg-contacts.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.budget.contact label,
+.budget.contact li,
+.budget.contact form input,
+.budget.contact form textarea {
+  color: #000;
+}
+
+.budget.contact form input:focus,
+.budget.contact form textarea:focus {
+  border-color: #000;
+}
