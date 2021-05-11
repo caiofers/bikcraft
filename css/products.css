@@ -23,6 +23,7 @@ section.product-presentation {
 }
 
 .product-presentation .first-line-presentation .product-primary-img {
+  position: relative;
   padding: 95px 0;
 }
 
