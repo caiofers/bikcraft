@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
     <header class="header">
@@ -39,7 +40,7 @@
     </section>
 
     <section class="content">
-        <div class="container">
+        <div class="container" data-slide="quote">
             <blockquote class="quote">
                 <p>
                     "No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial no formulação da gestão inovadora da qual fazemos parte"
@@ -48,12 +49,28 @@
                     Bárbara Moss
                 </cite>
             </blockquote>
+            <blockquote class="quote">
+                <p>
+                    "No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial no formulação da gestão inovadora da qual fazemos parte"
+                </p>
+                <cite>
+                    Caioooo
+                </cite>
+            </blockquote>
+            <blockquote class="quote">
+                <p>
+                    "No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial no formulação da gestão inovadora da qual fazemos parte"
+                </p>
+                <cite>
+                    BikCrafteriano
+                </cite>
+            </blockquote>
         </div>
     </section>
 
     <section class="portfolio content bg-black">
         <div class="container">
-            <div>
+            <div data-slide="portfolio">
                 <ul class="portfolio-list">
                     <li class="grid-8">
                         <div class="portfolio-item-img">
@@ -63,6 +80,23 @@
                     <li class="grid-8">
                         <div class="portfolio-item-img">
                             <img src="/img/photos/portfolio/tour.jpg" alt="Bicicletas para passeio">
+                        </div>
+                    </li>
+                    <li class="grid-16">
+                        <div class="portfolio-item-img">
+                            <img src="/img/photos/portfolio/sport.jpg" alt="Bicicletas para esportes">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="portfolio-list">
+                    <li class="grid-8">
+                        <div class="portfolio-item-img">
+                            <img src="/img/photos/portfolio/tour.jpg" alt="Bicicletas para passeio">
+                        </div>
+                    </li>
+                    <li class="grid-8">
+                        <div class="portfolio-item-img">
+                            <img src="/img/photos/portfolio/retro.jpg" alt="Bicicletas Retro">
                         </div>
                     </li>
                     <li class="grid-16">
@@ -134,5 +168,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
