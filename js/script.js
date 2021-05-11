@@ -10,3 +10,7 @@ if(window.SimpleSlide){
         time: 5000, // tempo de transição dos slides
     })
 }
+
+if(window.SimpleAnime){
+    new SimpleAnime();
+}
