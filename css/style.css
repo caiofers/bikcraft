@@ -46,7 +46,7 @@ img {
   background-color: #000;
 }
 
-section.content {
+.content {
   padding: 35px 0;
   width: 100%;
 }
@@ -371,7 +371,7 @@ section.content .call-to-action p {
   line-height: 20px;
 }
 
-.social-media ul.img li {
+.social-media ul.img li a {
   float: left;
   border: 3px solid #ffc640;
   border-radius: 5px;
@@ -379,7 +379,7 @@ section.content .call-to-action p {
   margin-right: 10px;
 }
 
-.social-media ul.img li:hover {
+.social-media ul.img li a:hover {
   border-color: #fff;
 }
 
