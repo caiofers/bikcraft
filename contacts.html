@@ -41,16 +41,22 @@
 
     <section data-anime="1200" class="fadeInDown budget contact content">
         <div class="container">
-            <form class="form grid-8">
+            <form method="POST" action="./enviar-sendgrid.php" class="form grid-8 formphp">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <label for="tel">Telefone</label>
                 <input type="tel" name="tel" id="tel">
+
+                <label class="hide-bot" for="hide-input">Não preencha, ao menos que vc seja um robô</label>
+                <input class="hide-bot" type="text" name="hide-input" id="hide-input">
+                <label class="hide-bot" for="hide-filled-input">Não altere, ao menos que vc seja um robô</label>
+                <input class="hide-bot" type="text" name="hide-filled-input" id="hide-filled-input" value="http://">
+
                 <label for="message">Mensagem</label>
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                <button type="submit" class="btn btn-black-hover">Enviar</button>
+                <button id="send-btn" name="send-btn" type="submit" class="btn btn-black-hover">Enviar</button>
             </form>
             <div class="info grid-8">
                 <div>
@@ -162,6 +168,7 @@
         </div>
     </footer>
     <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

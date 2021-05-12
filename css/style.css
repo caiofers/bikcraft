@@ -555,3 +555,21 @@ section.content .call-to-action p {
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+
+/* Form Messages */
+
+#form-success {
+  color: #31aa39;
+}
+
+#form-error {
+  color: #f64540;
+}
+
+/* Catch Bot */
+
+.hide-bot {
+  visibility: hidden !important;
+  height: 0px !important;
+  position: absolute !important;
+}
